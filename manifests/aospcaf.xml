@@ -27,7 +27,6 @@
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/external/ant-wireless/ant_native" />
-  <remove-project name="platform/external/libweave" />
   <remove-project name="platform/external/okhttp" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/frameworks/av" />
@@ -51,8 +50,10 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/nfc" />
+  <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/qcom" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
   <remove-project name="platform/vendor/qcom-opensource/dpm" />
   <remove-project name="platform/vendor/qcom-opensource/location" />
@@ -89,7 +90,6 @@
   <project name="platform_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="aosp-caf" />
   <project name="platform_external_connectivity" path="external/connectivity" remote="aosp-caf" />
   <project name="platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="aosp-caf" />
-  <project name="platform_external_libweave" path="external/libweave" remote="aosp-caf" />
   <project name="platform_external_okhttp" path="external/okhttp" remote="aosp-caf" />
   <project name="platform_external_selinux" path="external/selinux" remote="aosp-caf" />
   <project name="platform_frameworks_av" path="frameworks/av" remote="aosp-caf" />
@@ -112,11 +112,22 @@
   <project name="platform_system_bt" path="system/bt" remote="aosp-caf" />
   <project name="platform_system_core" path="system/core" remote="aosp-caf" />
   <project name="platform_system_nfc" path="system/nfc" remote="aosp-caf" />
+  <project name="platform_system_sepolicy" path="system/sepolicy" remote="aosp-caf" />
   <project name="platform_system_vold" path="system/vold" remote="aosp-caf" />
   <project name="platform_system_qcom" path="vendor/qcom/opensource/softap" remote="aosp-caf" />
+  <project name="platform_vendor_qcom-opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="aosp-caf" />
   <project name="platform_vendor_custom" path="vendor/custom" remote="aosp-caf" />
   <!-- END AOSP-CAF -->
 
+  <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8998" remote="github" />
+  <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8998" remote="github" />
+  <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8998" remote="github" />
+  <project path="kernel/xiaomi/jason" name="LineageOS/android_kernel_xiaomi_jason" revision="lineage-15.1" remote="github" />
+  <project path="device/xiaomi/jason" name="jason-caf/android_device_xiaomi_jason" revision="o-mr1" remote="github" />
+  <project path="vendor/xiaomi" name="jason-caf/proprietary_vendor_xiaomi" revision="o-mr1" remote="github" />
+  
+
 </manifest>
+

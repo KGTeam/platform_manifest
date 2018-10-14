@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp-caf"
-           fetch="https://github.com/AOSP-CAF"
+           fetch="https://github.com/jason-caf"
            revision="refs/heads/o-mr1" />
 
   <remote  name="caf"
@@ -15,7 +15,7 @@
   <remote  name="github-ssh"
            fetch="ssh://git@github.com" />
 
-  <default revision="refs/tags/LA.UM.6.6.r1-08900-89xx.0"
+  <default revision="refs/tags/LA.UM.6.2.r1-11300-sdm660.0"
            remote="caf"
            sync-j="4" />
 
@@ -240,7 +240,6 @@
   <project name="platform/external/libvorbis" path="external/libvorbis" />
   <project name="platform/external/libvpx" path="external/libvpx" />
   <project name="platform/external/libvterm" path="external/libvterm" />
-  <project name="platform/external/libweave" path="external/libweave" />
   <project name="platform/external/libxml2" path="external/libxml2" />
   <project name="platform/external/libyuv" path="external/libyuv" />
   <project name="platform/external/linux-kselftest" path="external/linux-kselftest" />
@@ -408,7 +407,6 @@
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display" />
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" />
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media" />
-  <project name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors" />
   <project name="platform/hardware/qcom/thermal" path="hardware/qcom/thermal" />
   <project name="platform/hardware/qcom/vr" path="hardware/qcom/vr" />
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" />
@@ -630,3 +628,4 @@
   <include name="manifests/aospcaf.xml"/>
 
 </manifest>
+
