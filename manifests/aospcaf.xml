@@ -47,6 +47,7 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/nfc" />
@@ -88,15 +89,15 @@
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
   </project>
   <project name="platform_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="aosp-caf" />
-  <project name="platform_external_connectivity" path="external/connectivity" remote="aosp-caf" />
   <project name="platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="aosp-caf" />
+  <project name="platform_external_connectivity" path="external/connectivity" remote="aosp-caf" />
+  <project name="platform_external_libweave" path="external/libweave" remote="aosp-caf" />
   <project name="platform_external_okhttp" path="external/okhttp" remote="aosp-caf" />
-  <project name="platform_external_selinux" path="external/selinux" remote="aosp-caf" />
   <project name="platform_frameworks_av" path="frameworks/av" remote="aosp-caf" />
   <project name="platform_frameworks_base" path="frameworks/base" remote="aosp-caf" />
   <project name="platform_frameworks_native" path="frameworks/native" remote="aosp-caf" />
-  <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="aosp-caf" />
   <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="aosp-caf" />
+  <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="aosp-caf" />
   <project name="platform_hardware_custom_interfaces" path="hardware/custom/interfaces" remote="aosp-caf" >
   <copyfile dest="hardware/custom/Android.bp" src="Android.bp" />
   </project>
@@ -104,30 +105,37 @@
   <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="aosp-caf" />
   <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="aosp-caf" />
   <project name="platform_hardware_qcom_power" path="hardware/qcom/power" remote="aosp-caf" />
-  <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="aosp-caf" />
   <project name="platform_hardware_ril" path="hardware/ril" remote="aosp-caf" />
   <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="aosp-caf" />
   <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="aosp-caf" />
+  <project name="platform_packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="aosp-caf" />
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="aosp-caf" />
   <project name="platform_system_bt" path="system/bt" remote="aosp-caf" />
   <project name="platform_system_core" path="system/core" remote="aosp-caf" />
   <project name="platform_system_nfc" path="system/nfc" remote="aosp-caf" />
-  <project name="platform_system_sepolicy" path="system/sepolicy" remote="aosp-caf" />
   <project name="platform_system_vold" path="system/vold" remote="aosp-caf" />
-  <project name="platform_system_qcom" path="vendor/qcom/opensource/softap" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="aosp-caf" />
+  <project name="platform_vendor_qcom_opensource_softap" path="vendor/qcom/opensource/softap" remote="aosp-caf" />
+
   <project name="platform_vendor_custom" path="vendor/custom" remote="aosp-caf" />
   <!-- END AOSP-CAF -->
 
-  <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8998" remote="github" />
-  <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8998" remote="github" />
-  <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8998" remote="github" />
+  <!-- BEGIN LINEAGE -->
+  <project name="LineageOS/android_external_selinux" path="external/selinux" revision="lineage-15.1" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media" groups="qcom,pdk" revision="lineage-15.1-caf-8998" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8998" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8998" remote="github" />
+  <project name="LineageOS/android_hardware_qcom_wlan" path="hardware/qcom/wlan" revision="lineage-15.1-caf" remote="github" />
+  <project name="LineageOS/android_system_sepolicy" path="system/sepolicy" revision="lineage-15.1" remote="github" />
+  <!-- END LINEAGE -->
+
+  <!-- XIAOMI JASON -->
   <project path="kernel/xiaomi/jason" name="LineageOS/android_kernel_xiaomi_jason" revision="lineage-15.1" remote="github" />
   <project path="device/xiaomi/jason" name="jason-caf/android_device_xiaomi_jason" revision="o-mr1" remote="github" />
   <project path="vendor/xiaomi" name="jason-caf/proprietary_vendor_xiaomi" revision="o-mr1" remote="github" />
-  
+  <!-- XIAOMI JASON -->
 
 </manifest>
 
