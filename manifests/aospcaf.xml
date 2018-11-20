@@ -135,6 +135,7 @@
   <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media" groups="qcom,pdk" revision="lineage-15.1-caf-8998" remote="github" />
   <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8998" remote="github" />
   <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8998" remote="github" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-15.1" remote="github" />
   <project name="LineageOS/android_system_sepolicy" path="system/sepolicy" revision="lineage-15.1" remote="github" />
   <!-- END LINEAGE -->
 
