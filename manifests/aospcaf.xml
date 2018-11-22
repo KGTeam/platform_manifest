@@ -96,6 +96,7 @@
   <project name="platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="aosp-caf" />
   <project name="platform_external_connectivity" path="external/connectivity" remote="aosp-caf" />
   <project name="platform_external_libweave" path="external/libweave" remote="aosp-caf" />
+  <project name="platform_external_google-fonts_google-sans" path="external/google-fonts/google-sans" remote="aosp-caf" />
   <project name="platform_external_okhttp" path="external/okhttp" remote="aosp-caf" />
   <project name="platform_frameworks_av" path="frameworks/av" remote="aosp-caf" />
   <project name="platform_frameworks_base" path="frameworks/base" remote="aosp-caf" />
