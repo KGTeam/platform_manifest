@@ -46,6 +46,7 @@
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/packages/apps/CarrierConfig" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
+  <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/services/Telephony" />
@@ -114,6 +115,7 @@
   <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="aosp-caf" />
   <project name="platform_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" remote="aosp-caf" />
   <project name="platform_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="aosp-caf" />
+  <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="aosp-caf" />
   <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="aosp-caf" />
   <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="aosp-caf" />
   <project name="platform_packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="aosp-caf" />
