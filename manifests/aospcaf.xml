@@ -98,6 +98,7 @@
   <project name="platform_external_libweave" path="external/libweave" remote="aosp-caf" />
   <project name="platform_external_google-fonts_google-sans" path="external/google-fonts/google-sans" remote="aosp-caf" />
   <project name="platform_external_okhttp" path="external/okhttp" remote="aosp-caf" />
+  <project name="platform_external_selinux" path="external/selinux" remote="aosp-caf" />
   <project name="platform_frameworks_av" path="frameworks/av" remote="aosp-caf" />
   <project name="platform_frameworks_base" path="frameworks/base" remote="aosp-caf" />
   <project name="platform_frameworks_native" path="frameworks/native" remote="aosp-caf" />
@@ -130,16 +131,8 @@
   <project name="platform_vendor_qcom-opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="aosp-caf" />
-
   <project name="platform_vendor_custom" path="vendor/custom" remote="aosp-caf" />
   <!-- END AOSP-CAF -->
-
-  <!-- BEGIN LINEAGE -->
-  <project name="LineageOS/android_external_selinux" path="external/selinux" revision="lineage-15.1" remote="github" />
-  <project name="LineageOS/android_hardware_lineage_telephony" path="hardware/lineage/telephony" revision="lineage-15.1" remote="github" />
-  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-15.1" remote="github" />
-  <project name="LineageOS/android_system_sepolicy" path="system/sepolicy" revision="lineage-15.1" remote="github" />
-  <!-- END LINEAGE -->
 
   <!-- XIAOMI JASON -->
   <project path="kernel/xiaomi/jason" name="LineageOS/android_kernel_xiaomi_jason" revision="lineage-15.1" remote="github" />
