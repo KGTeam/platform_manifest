@@ -122,6 +122,7 @@
   <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="aosp-caf" />
   <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="aosp-caf" />
   <project name="platform_packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="aosp-caf" />
+  <project name="platform_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="aosp-caf" />
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="aosp-caf" />
   <project name="platform_system_bt" path="system/bt" remote="aosp-caf" />
   <project name="platform_system_core" path="system/core" remote="aosp-caf" />
