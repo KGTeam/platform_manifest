@@ -137,11 +137,5 @@
   <project name="platform_vendor_extra" path="vendor/extra" remote="aosp-caf" />
   <!-- END AOSP-CAF -->
 
-  <!-- XIAOMI JASON -->
-  <project path="kernel/xiaomi/jason" name="LineageOS/android_kernel_xiaomi_jason" revision="lineage-15.1" remote="github" />
-  <project path="device/xiaomi/jason" name="jason-caf/android_device_xiaomi_jason" revision="o-mr1" remote="github" />
-  <project path="vendor/xiaomi" name="jason-caf/proprietary_vendor_xiaomi" revision="o-mr1" remote="github" />
-  <!-- XIAOMI JASON -->
-
 </manifest>
 
